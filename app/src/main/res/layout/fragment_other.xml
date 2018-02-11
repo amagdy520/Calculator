@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d4d4d"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSin"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="#4d4d4d"
+        android:maxWidth="90dp"
+        android:onClick="onTrigonometricFunctions"
+        android:text="sin"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCos"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_toEndOf="@+id/btnSin"
+        android:layout_toRightOf="@+id/btnSin"
+        android:background="#4d4d4d"
+        android:maxWidth="90dp"
+        android:onClick="onTrigonometricFunctions"
+        android:textAllCaps="false"
+        android:text="cos"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnTan"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_toEndOf="@+id/btnCos"
+        android:layout_toRightOf="@+id/btnCos"
+        android:background="#4d4d4d"
+        android:maxWidth="90dp"
+        android:onClick="onTrigonometricFunctions"
+        android:text="tan"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btnPower"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_toEndOf="@+id/btnTan"
+        android:layout_toRightOf="@+id/btnTan"
+        android:background="#4d4d4d"
+        android:maxWidth="90dp"
+        android:onClick="onPower"
+        android:text="^"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSquare"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnSin"
+        android:layout_toLeftOf="@+id/btnMultiplicand"
+        android:layout_toStartOf="@+id/btnMultiplicand"
+        android:background="#4d4d4d"
+        android:onClick="onSquare"
+        android:text="@string/square_root_symbol"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnMultiplicand"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnCos"
+        android:layout_toEndOf="@+id/btnSin"
+        android:layout_toRightOf="@+id/btnSin"
+        android:background="#4d4d4d"
+        android:onClick="onMultiplicand"
+        android:text="!"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnModules"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnTan"
+        android:layout_toEndOf="@+id/btnMultiplicand"
+        android:layout_toRightOf="@+id/btnMultiplicand"
+        android:background="#4d4d4d"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnLn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnSquare"
+        android:background="#4d4d4d"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnPower"
+        android:layout_toRightOf="@+id/btnTan"
+        android:background="#4d4d4d"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+</RelativeLayout>
