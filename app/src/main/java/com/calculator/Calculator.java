@@ -19,6 +19,7 @@ public class Calculator extends AppCompatActivity {
     private ViewPager mViewPager;
     private Adapter mAdapter;
     double val1 , val2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

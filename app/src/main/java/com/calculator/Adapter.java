@@ -10,6 +10,7 @@ import android.util.Log;
  * Created by Ahmed Magdy on 2/8/2018.
  */
 
+
 public class Adapter extends FragmentPagerAdapter {
     private final String title[] = new String[]{"Main","Other"};
     private final Fragment fragment[] = new Fragment[title.length];
